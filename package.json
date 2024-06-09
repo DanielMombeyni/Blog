@@ -1,0 +1,15 @@
+{
+  "name": "Blog",
+  "version": "1.0.0",
+  "description": "Blog Template By Tailwind Css",
+  "main": "index.js",
+  "repository": "https://github.com/DanielMombeyni/Blog.git",
+  "author": "Daniel Mombeyni <mombeyni.daniel@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
